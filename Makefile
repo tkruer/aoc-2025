@@ -6,10 +6,10 @@ CXXFLAGS := -std=c++20 -Wall -Wextra -O2
 # Paths
 SRC_DIR := src
 BIN_DIR := bin
-TARGET := $(BIN_DIR)/day_one
+TARGET := $(BIN_DIR)/day_two
 
 # Source files
-SRCS := $(SRC_DIR)/day_one.cc
+SRCS := $(SRC_DIR)/day_two.cc
 
 # Default rule
 all: $(TARGET)
